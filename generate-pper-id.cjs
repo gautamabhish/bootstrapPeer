@@ -1,5 +1,5 @@
-import PeerId from "peer-id";
-import fs from "fs";
+const PeerId = require('peer-id');
+const fs = require('fs');
 
 PeerId.create({ keyType: 'Ed25519' }).then((peerId) => {
   const json = peerId.toJSON();
