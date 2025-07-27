@@ -5,7 +5,11 @@
   "main": "bootstrap-node.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --no-warnings bootstrap-node.js",
+    "generate-peer-id": "node generate-pper-id.js",
+    "build":"node generate-pper-id.js ",
+    "start":"node bootstrap-node.js"
   },
   "author": "",
   "license": "ISC",
