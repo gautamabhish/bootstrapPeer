@@ -1,7 +1,7 @@
 import { createLibp2p } from 'libp2p';
 import { webSockets } from '@libp2p/websockets';
 import { kadDHT } from '@libp2p/kad-dht';
-import { noise } from '@libp2p/noise';
+import { noise } from '@chainsafe/libp2p-noise';
 import { yamux } from '@chainsafe/libp2p-yamux';
 import { identify } from '@libp2p/identify'; // ✅ added before
 import { ping } from '@libp2p/ping';         // ✅ add this
