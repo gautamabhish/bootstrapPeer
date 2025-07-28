@@ -30,5 +30,5 @@ await node.start();
 
 console.log('✅ Bootstrap node is live!');
 node.getMultiaddrs().forEach((addr) =>
-  console.log(`${addr.toString()}/p2p/${node.peerId.toString()}`)
+  console.log(`${addr.toString()}`)
 );
